@@ -17,7 +17,7 @@ app.setSerializerCompiler(serializerCompiler);
 app.register(fastifyCors, { origin: "*" });
 
 app.register(fastifySwagger, {
-  openapi: {
+  openapi: {  
     info: {
       title: "Typed API",
       version: "1.0.0",
